@@ -36,6 +36,21 @@ public class Rectangle extends Actor {
         height = h;
     }
     
+       public void setHeight(int newHeight)
+    {
+        height = newHeight;
+    }
+    
+    public int getArea(){
+        int area = width*height;
+        return area;
+    }
+    
+    public void printArea(){
+        int area = width*height;
+        System.out.println(area);
+    }
+    
     public static void main(String[] args){
       
     
